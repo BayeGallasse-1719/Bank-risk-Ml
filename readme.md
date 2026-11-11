@@ -109,29 +109,6 @@ Le projet repose sur cinq datasets publics provenant de différentes sources.
 5. **Bank Marketing :**  
    https://archive.ics.uci.edu/dataset/222/bank+marketing
 
-**Important :** Les cinq datasets proviennent de populations et de systèmes différents. Ils seront traités dans des pipelines distincts et ne seront pas fusionnés artificiellement.
-
----
-
-## 🛠️ Technologies et outils utilisés
-
-| Technologie | Utilisation |
-|---|---|
-| Python | Langage principal |
-| Pandas | Manipulation des données |
-| NumPy | Calcul numérique |
-| Matplotlib | Visualisation |
-| Seaborn | Analyse graphique |
-| SciPy | Analyse statistique |
-| Statsmodels | Modélisation statistique |
-| Scikit-learn | Prétraitement et Machine Learning |
-| XGBoost | Modèles de boosting |
-| LightGBM | Modèles de boosting |
-| SHAP | Interprétabilité des modèles |
-| Jupyter Notebook | Expérimentation |
-| Streamlit | Développement de l'application web |
-| Git & GitHub | Versionnement et collaboration |
-
 ---
 
 ## 🤖 Algorithmes de Machine Learning
@@ -182,8 +159,6 @@ Le projet suit une démarche structurée en plusieurs étapes :
 8. **Optimisation :** amélioration des modèles et réglage des hyperparamètres.
 9. **Interprétabilité :** utilisation de SHAP pour comprendre les prédictions.
 10. **Déploiement :** développement d'une interface interactive avec Streamlit.
-
-Les transformations seront intégrées dans des pipelines afin de prévenir le Data Leakage.
 
 ---
 
@@ -319,7 +294,6 @@ banking-risk-ml-platform/
 └── README.md
 ```
 
-*Cette structure est une proposition d'organisation du dépôt, à adapter selon l'avancement du développement.*
 
 ---
 
@@ -328,7 +302,7 @@ banking-risk-ml-platform/
 ### 1. Cloner le dépôt
 
 ```bash
-git clone <URL_DU_DEPOT>
+git clone https://github.com/BayeGallasse-1719/Bank-risk-Ml.git
 cd banking-risk-ml-platform
 ```
 
@@ -363,7 +337,7 @@ Télécharger les cinq bases de données depuis les sources indiquées précéde
 ### 5. Lancer l'application Streamlit
 
 ```bash
-streamlit run app/Home.py
+streamlit run app/main.py
 ```
 
 ---
@@ -401,25 +375,6 @@ Une attention particulière sera accordée :
 
 ---
 
-## 📅 Planning prévisionnel
-
-Le projet est prévu sur une durée de 10 jours intensifs.
-
-| Phase | Activités |
-|---|---|
-| Phase 1 | Cadrage et collecte des datasets |
-| Phase 2 | Analyse exploratoire et nettoyage |
-| Phase 3 | Feature Engineering et pipelines |
-| Phase 4 | Classification du risque de crédit |
-| Phase 5 | Détection de fraude |
-| Phase 6 | Régression financière |
-| Phase 7 | Clustering et détection d'anomalies |
-| Phase 8 | Optimisation et interprétation |
-| Phase 9 | Développement de l'application Streamlit |
-| Phase 10 | Documentation et présentation finale |
-
----
-
 ## 🏁 Résultat final attendu
 
 Une plateforme pédagogique intelligente de gestion des risques bancaires permettant d'explorer plusieurs problématiques financières grâce à des techniques de Machine Learning intermédiaires et avancées.
@@ -428,7 +383,7 @@ L'application permettra de centraliser les résultats des différents modèles, 
 
 ---
 
-## 👨‍💻 Auteur
+## 👨‍💻 Auteur: BayeGallasse
 
 Projet Data Science & Machine Learning.
 
